@@ -988,7 +988,7 @@ EOF;
         if (defined('__TYPECHO_GRAVATAR_PREFIX__')) {
             $url = __TYPECHO_GRAVATAR_PREFIX__;
         } else {
-            $url = $isSecure ? 'https://secure.gravatar.com' : 'http://www.gravatar.com';
+            $url = $isSecure ? 'https://sdn.geekzu.org' : 'http://sdn.geekzu.org';
             $url .= '/avatar/';
         }
 
